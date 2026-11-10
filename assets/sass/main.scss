@@ -1809,7 +1809,8 @@
 
 			a {
 				border: 0;
-				display: block;
+				align-items: center;
+				display: flex;
 				height: inherit;
 				line-height: inherit;
 
@@ -1817,11 +1818,11 @@
 					background: #fff;
 					border-radius: 50%;
 					display: block;
-				height: 2.4em;
-					margin-top: 0.3em;
+					height: 2rem;
+					margin: 0;
 					object-fit: contain;
 					padding: 0.08em;
-					width: 2.4em;
+					width: 2rem;
 				}
 
 				@include breakpoint('<=small') {
