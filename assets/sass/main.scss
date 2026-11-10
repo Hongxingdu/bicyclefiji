@@ -63,8 +63,9 @@
 
 	#cta .inner {
 		display: block;
-		max-width: 70em;
+		max-width: none;
 		text-align: center;
+		width: 100%;
 	}
 
 	#cta .map-heading {
