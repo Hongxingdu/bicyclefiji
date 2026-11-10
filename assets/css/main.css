@@ -4073,6 +4073,16 @@ input, select, textarea {
 		color: #a9d8bd;
 	}
 
+	#two .spotlight .image {
+		aspect-ratio: 4 / 3;
+		overflow: hidden;
+	}
+
+	#two .spotlight .image img {
+		height: 100%;
+		object-fit: cover;
+	}
+
 	.button.primary {
 		background-color: var(--fiji-coral);
 	}
