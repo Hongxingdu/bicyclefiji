@@ -47,14 +47,13 @@
 	}
 
 	#cta.wrapper.style4 {
-		background-color: var(--fiji-sun);
-		background-image: none;
-		color: var(--fiji-navy);
+		background-color: rgba(23, 49, 77, 0.38);
+		color: var(--fiji-salt);
 	}
 
 	#cta h2,
 	#cta h3 {
-		color: var(--fiji-navy);
+		color: var(--fiji-salt);
 	}
 
 	#cta .button:not(.primary) {
